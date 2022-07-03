@@ -1,0 +1,1 @@
+The smart film is divided into [Pixels] to attain local adaptivity and great freedom in choosing the area of the facade that needs to be shaded. To this end, each [Pixel] is powered through the transparent PCB, so it becomes individually-switchable.

@@ -1,0 +1,1 @@
+The control system consists of a UI unit, such as a mobile app, and a controller that processes user commands and instructs a driver unit to deliver power to the corresponding set of smart [Pixels] via the transparent PCB.

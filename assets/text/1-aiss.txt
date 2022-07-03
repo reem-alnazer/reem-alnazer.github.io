@@ -1,0 +1,2 @@
+Adaptive Integrated Shading System (AISS)
+The goal of this project is to design and implement an approach to utilize the space between the glass panels of double-glass facades to construct an Adaptive Integrated Shading System (AISS). This is especially important in high-rise building because they are subject to largely diverse climate conditions. At the same time, it is difficult to implement a durable external adaptive shading systems in such buildings. Furthermore, double facades could be used for this purpose. However, they are expensive and take up a large space.

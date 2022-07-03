@@ -1,0 +1,5 @@
+When the building is unoccupied, the shading system can transform the glass facade into a large-scale smart screen, changing the entire aesthetics of the building.
+Moreover, most smart film technologies available in the market are on/off-switchable, i.e., the film is either transparent (on) or it is opaque (off), which usually has a white color. Therefore, we looked for techniques that allow the reproduction of monochrome images and videos using a display, with 2 colors only.
+
+Two of these techniques are dithering and halftoning.
+The actual appearance of the resulting monochrome images differ between daytime and night, and if lights are lit inside the building or if the facade is illuminated with external lighting sources. Moreover, if the smart screen is used to reproduce monochrome videos, the appearance is also affected by the positive or negative space surrounding the subjects in it.

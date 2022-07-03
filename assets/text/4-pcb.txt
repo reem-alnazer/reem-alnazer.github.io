@@ -1,0 +1,3 @@
+Transparent PCB circuit:
+Transparent printed circuit boards are important in optical fields. You can see through them, and even the conductive traces and components embedded in the circuit boards can be transparent.
+Since the goal is to achieve a shading system that is as transparent as possible to keep an open view and sufficient daylight, transparent circuits come in handy in this case. They provide the smart films with power without hindering the facade function. 

@@ -1,0 +1,2 @@
+The smart film is divided into [Pixels] to attain local adaptivity   in  an auto-responsive yet user-overridable integrated shading system.
+The shading system can turn into   a large-scale monochromatic smart screen when the building is unoccupied.

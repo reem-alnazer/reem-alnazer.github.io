@@ -1,0 +1,2 @@
+Integrated Components:
+The adaptive shading system has components integrated between two glass panels of the facade. These are electrochromic films, which are powered through a transparent PCB circuit.
