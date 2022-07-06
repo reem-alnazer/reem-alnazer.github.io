@@ -190,10 +190,10 @@ input, select, textarea {
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
+			/*width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
-			width: max-content;
+			width: max-content;*/
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
 		}
@@ -737,6 +737,31 @@ input, select, textarea {
 			}
 
 		}
+
+	.row:after {
+			content: "";
+			display: table;
+			clear: both;
+	}
+		
+	.column-2 {
+		float: left;
+		width: 50%;
+		padding: 10px;
+	}
+
+	.column-3 {
+		float: left;
+		width: 33%;
+		padding: 10px;
+	}
+		
+	.column-2 img,
+	.column-3 img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+	}	
 
 /* List */
 

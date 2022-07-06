@@ -14,6 +14,7 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<link rel="icon" href="favicon.ico" />
 </head>
 
 <body class="is-preload">
@@ -40,6 +41,7 @@
 					<li><a href="#intro">Intro</a></li>
 					<li><a href="#system">The System</a></li>
 					<li><a href="#applications">Use-Cases</a></li>
+					<li><a href="#smart-screen">Smart Screen</a></li>
 					<li><a href="#prototype">Prototype</a></li>
 					<li><a href="#about">About</a></li>
 					<!-- <li><a href="#elements">Elements</a></li> -->
@@ -53,7 +55,7 @@
 			<!-- Intro -->
 			<article id="intro">
 				<h2 class="major">Intro</h2>
-				<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+				<span class="image main"><img src="images/intro.png" alt="" /></span>
 				<p>
 					The goal of this project is to design and implement an approach to utilize the space between the glass panels of double-pane facades to construct an <em>Adaptive Integrated Shading System (AISS)</em>.
 				</p>
@@ -81,7 +83,7 @@
 			<!-- System Components -->
 			<article id="system">
 				<h2 class="major">System Design</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+				<span class="image main" style="background-color:white"><img src="images/system-design.png" alt="" /></span>
 				<p>
 					The system receives inputs from environment sensors such as <a href="https://en.wikipedia.org/wiki/Photodetector">photodetectors</a> or <a href="https://en.wikipedia.org/wiki/List_of_temperature_sensors">temperature sensors</a>, in addition to user commands captured via a <a href="https://en.wikipedia.org/wiki/User_interface">user interface (UI)</a> unit, such as a mobile app.
 				</p>
@@ -91,7 +93,7 @@
 
 				<section>
 					<h3 class="major"> Smart [Pixels]? </h3>
-					<span class="image left"><img src="images/pic02.jpg" alt="" /></span>
+
 					<p>
 						Our main contribution in this project, i.e., the Smart [Pixels], depends on the concept of smart (or electrochromic) films.
 						So let's briefly learn about them first.
@@ -104,6 +106,14 @@
 					</p>
 
 					<h4>How do we turn smart films into smart [Pixels]?</h4>
+					<div class="row">
+						<div class="column-2">
+							<img src="images/into-pixels-1.PNG" alt="" />
+						</div>
+						<div class="column-2">
+							<img src="images/into-pixels-2.PNG" alt="" />
+						</div>
+					</div>
 					<p>
 						The smart film is divided into [Pixels] to attain <em>local adaptivity</em> and great freedom in choosing the area of the facade that needs to be shaded.
 						To this end, each [Pixel] is powered through the transparent PCB, so it becomes individually-switchable according to the controller commands.
@@ -127,7 +137,6 @@
 			<!-- Use-Cases -->
 			<article id="applications">
 				<h2 class="major">Use Cases</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 				<p>
 					Smart Film [Pixels] support a wide range of use-cases that fall under two categories.
 					First, we have use cases that provide adaptive shading for buildings, and second, we have use cases that turn building facades into large-scale smart screens.
@@ -136,13 +145,34 @@
 
 				<section>
 					<h3 class="major">Smart Film [Pixels] as a shading solution</h3>
+					<div class="row">
+						<div class="column-2">
+							<img src="images/Mode-3.png" alt="" />
+						</div>
+						<div class="column-2">
+							<img src="images/Mode-4.png" alt="" />
+						</div>
+					</div>
 
 					<p>
 						The system can automatically react to the sun's position in the sky and activate [Pixel] selectively so that, e.g., direct sunlight does not enter the room while the same time the visibilty is not greatly hindered.
 					</p>
+
+					<div class="row">
+						<div class="column-2">
+							<img src="images/Mode-1.png" alt="" />
+							<img src="images/Mode-6.png" alt="" />
+						</div>
+						<div class="column-2">
+							<img src="images/Mode-2.png" alt="" />
+							<img src="images/Mode-5.png" alt="" />
+						</div>
+					</div>
+
 					<p>
 						The system can also respond to user inputs instructing it to uniformly activiate a specific percentage of [Pixels], e.g., 25% or 50%, so that a desired overall degree of shading is achieved despite the fact that smart films are normally only on/off-switchable.
 						Individual users in large open office spaces can also freely select to turn shading on/off next to their desks according to their preferences.
+						Finally, the screen can be turned off and <a href="https://intelligentglass.net/products/switchable-smart-projection-film/">used as a projection screen</a>, e.g., during presentations.
 					</p>
 				</section>
 
@@ -161,7 +191,6 @@
 			<!-- Smart Screen -->
 			<article id="smart-screen">
 				<h2 class="major">Smart [Pixels] Screen</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 				<p>
 					When the building is unoccupied, the shading system can transform the glass facade into a large-scale smart screen, changing the entire aesthetics of the building.
 					Moreover, most smart film technologies available in the market are on/off-switchable, i.e., the film is either transparent (on) revealing whatever below it, or it is opaque (off), which usually has a white color.
@@ -175,7 +204,17 @@
 
 				<section>
 					<h3 class="major">Dithering</h3>
-					<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="row">
+						<div class="column-3">
+							<a href="images/d-200.png" target="_blank"><img src="images/d-200.png" alt="" /></a>
+						</div>
+						<div class="column-3">
+							<a href="images/d-600.png" target="_blank"><img src="images/d-600.png" alt="" /></a>
+						</div>
+						<div class="column-3">
+							<a href="images/d-2081.png" target="_blank"><img src="images/d-2081.png" alt="" /></a>
+						</div>
+					</div>
 					<p>
 						<a href="https://en.wikipedia.org/wiki/Dither#Digital_photography_and_image_processing"> Dithering </a> in image processing is a technique used to create the illusion of color depth in images with limited color palette.
 						Approximating colors not part of the palette is done by diffusing pixels colored with the available colors.
@@ -191,7 +230,17 @@
 
 				<section>
 					<h3 class="major">Halftone</h3>
-					<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="row">
+						<div class="column-3">
+							<a href="images/h-60.jpg" target="_blank"><img src="images/h-60.jpg" alt="" /></a>
+						</div>
+						<div class="column-3">
+							<a href="images/h-200.jpg" target="_blank"><img src="images/h-200.jpg" alt="" /></a>
+						</div>
+						<div class="column-3">
+							<a href="images/h-600.jpg" target="_blank"><img src="images/h-600.jpg" alt="" /></a>
+						</div>
+					</div>
 					<p>
 						<a href="https://en.wikipedia.org/wiki/Halftone">Halftone</a> is a photo reproduction technique that uses a uniform grid of dots of varying sizes to simulate continuous-tone imagery, resulting in a gradient-like effect.
 						This technique was often used in printing when grayscale images were to be reproduced using only black ink on white paper.
@@ -222,16 +271,49 @@
 			<!-- Prototype -->
 			<article id="prototype">
 				<h2 class="major">Prototype</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-				
+				<span class="image main"><img src="images/proto-main.jpg" alt="" /></span>
+
+				<section>
+					<h3 class="major">Video of the Prototype</h3>
+					<video width="100%" controls>
+						<source src="videos/video.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</section>
+
+				<section>
+					<h3 class="major">Prototyping Process</h3>
+					<div class="row">
+						<div class="column-3">
+							<a href="images/proto-1.jpg" target="_blank"><img src="images/proto-1.jpg" alt="" /></a>
+							<a href="images/proto-4.jpg" target="_blank"><img src="images/proto-4.jpg" alt="" /></a>
+							<a href="images/proto-7.jpg" target="_blank"><img src="images/proto-7.jpg" alt="" /></a>
+							<a href="images/proto-10.jpg" target="_blank"><img src="images/proto-10.jpg" alt="" /></a>
+						</div>
+						<div class="column-3">
+							<a href="images/proto-2.jpg" target="_blank"><img src="images/proto-2.jpg" alt="" /></a>
+							<a href="images/proto-5.jpg" target="_blank"><img src="images/proto-5.jpg" alt="" /></a>
+							<a href="images/proto-8.jpg" target="_blank"><img src="images/proto-8.jpg" alt="" /></a>
+							<a href="images/proto-11.jpg" target="_blank"><img src="images/proto-11.jpg" alt="" /></a>
+						</div>
+						<div class="column-3">
+							<a href="images/proto-3.jpg" target="_blank"><img src="images/proto-3.jpg" alt="" /></a>
+							<a href="images/proto-6.jpg" target="_blank"><img src="images/proto-6.jpg" alt="" /></a>
+							<a href="images/proto-9.jpg" target="_blank"><img src="images/proto-9.jpg" alt="" /></a>
+							<a href="images/proto-12.png" target="_blank"><img src="images/proto-12.png" alt="" /></a>
+						</div>
+					</div>
+
+				</section>
+
 			</article>
 
 			<!-- About -->
 			<article id="about">
 				<h2 class="major">About</h2>
 				<span class="image left"><img src="images/reem.jpg" alt="" /></span>
-				<p>I am <b>Reem Alnazer</b>, and this project is part of my Master's Thesis in Architecture at the <em>State Academy of Fine Arts in Stuttgart (ABK Stuttgart)</em> submitted in the summer semester 2022</p>
-				
+				<p>I am <b>Reem Alnazer</b>, and this project is part of my Master's Thesis in Architecture at the <em>State Academy of Fine Arts in Stuttgart (ABK Stuttgart)</em> submitted in the summer semester 2022.</p>
+
 			</article>
 
 			<!-- Elements -->
@@ -480,7 +562,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">2022&copy;Reem Alnazer. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			<p class="copyright">2022&copy;Reem Alnazer. Photos: Reem Alnazer. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 		</footer>
 
 	</div>
