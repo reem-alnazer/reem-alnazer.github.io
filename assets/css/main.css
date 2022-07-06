@@ -636,6 +636,19 @@ input, select, textarea {
 		}
 
 /* Image */
+    .logoimg {
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.logoimg img {
+
+		width: 50%;
+	}
+
 
 	.image {
 		border-radius: 4px;
@@ -662,6 +675,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			max-width: 100%;
 		}
 
 		.image.left, .image.right {
@@ -692,6 +706,10 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+			}
+
+			.image.fit.logo img {
+				width: 50%;
 			}
 
 		.image.main {
