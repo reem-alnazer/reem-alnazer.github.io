@@ -1667,6 +1667,13 @@ input, select, textarea {
 		}
 
 /* Footer */
+	.copyright {
+		letter-spacing: 0.2rem;
+		font-size: 0.6rem;
+		opacity: 0.75;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
 
 	#footer {
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
@@ -1679,13 +1686,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#footer .copyright {
-			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
-			margin-bottom: 0;
-			text-transform: uppercase;
-		}
+
 
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
